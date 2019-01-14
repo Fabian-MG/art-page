@@ -1,0 +1,25 @@
+h1 {
+	font-family: 'Times New Roman';
+	border-bottom: 2px solid red;
+	border-right: 2px solid red;
+	width: 200px;
+	text-align: center;
+	box-shadow: 10px 10px 10px rgb(85, 0, 0); 
+}
+
+img {
+	width: 300px;
+	height: 250px;
+	margin: 20px;
+	transition: all 1s
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img:hover {
+	transform: scale(1.2);
+}
